@@ -1,0 +1,67 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 400px;
+    margin: 20px;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .user-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px; 
+  }
+  
+  .user-info {
+    text-align: left;
+  }
+  
+  .username {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .email {
+    margin: 5px 0 0;
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .fullname,
+  .dob,
+  .contact,
+  .address {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #666;
+  }
+body{
+    background-color: #f0f0f0;
+}
